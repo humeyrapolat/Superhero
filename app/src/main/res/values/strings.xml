@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SuperHero</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="work">Work</string>
+    <string name="race">Race : %s </string>
+    <string name="eyeLabel">Eye color: %s</string>
+    <string name="hairLabel">Hair color: %s</string>
+    <string name="weight">Weight : %s</string>
+    <string name="height">Height: %s</string>
+    <string name="fullname">Full Name: %s</string>
+    <string name="alterEgos">Alter Egos: %s</string>
+    <string name="aliases">Aliases: %s</string>
+    <string name="placeOfBirth">Place Of Birth: %s</string>
+    <string name="firstAppearance">First Appearance: %s</string>
+    <string name="publisher">Publisher: %s</string>
+    <string name="alignment">Alignment: %s</string>
+    <string name="groupAffiliation">Group Affiliation: %s</string>
+    <string name="occupation">Occupation: %s</string>
+    <string name="base">Base: %s</string>
+    <string name="intelligence">Intelligence: %s</string>
+    <string name="strength">Strength: %s</string>
+    <string name="speed">Speed: %s</string>
+    <string name="durability">Durability: %s</string>
+    <string name="power">Power: %s</string>
+    <string name="combat">Combat: %s</string>
+    <string name="relatives">Relatives: %s</string>
+
+
+</resources>

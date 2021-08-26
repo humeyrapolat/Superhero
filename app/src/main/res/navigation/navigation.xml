@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/superHeroes">
+
+    <fragment
+        android:id="@+id/superHeroes"
+        android:name="com.humeyrapolat.superhero.view.SuperHeroesFragment"
+        android:label="SUPER HEROES">
+        <action
+            android:id="@+id/action_superHeroes_to_superHeroDetail"
+            app:destination="@id/superHeroDetail" />
+    </fragment>
+    <fragment
+        android:id="@+id/superHeroDetail"
+        android:name="com.humeyrapolat.superhero.view.SuperHeroAppearanceFragment"
+        android:label="Information and Appearance">
+        <action
+            android:id="@+id/action_superHeroDetail_to_superHeroWork"
+            app:destination="@id/superHeroWork" />
+        <argument android:name="resultId"
+            app:argType="long" />
+    </fragment>
+    <fragment
+        android:id="@+id/superHeroWork"
+        android:name="com.humeyrapolat.superhero.view.SuperHeroWorkFragment"
+        android:label="Work and Powerstats" >
+        <argument
+            android:name="result"
+            app:argType="com.humeyrapolat.superhero.model.Result"
+            app:nullable="true" />
+    </fragment>
+</navigation>
