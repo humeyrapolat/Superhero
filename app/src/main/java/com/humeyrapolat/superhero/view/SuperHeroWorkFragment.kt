@@ -12,6 +12,11 @@ import com.humeyrapolat.superhero.R
 import com.humeyrapolat.superhero.databinding.FragmentSuperHeroWorkBinding
 import com.humeyrapolat.superhero.viewmodel.SuperHeroWorkViewModel
 
+
+/**
+ * @author Humeyra Polat
+ * @sınce 26.08.2021
+ */
 class SuperHeroWorkFragment : Fragment() {
 
     private lateinit var result :Result

@@ -9,6 +9,10 @@ import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.observers.DisposableSingleObserver
 import io.reactivex.schedulers.Schedulers
 
+/**
+ * @author Humeyra Polat
+ * @sınce 26.08.2021
+ */
 class SuperHeroWorkViewModel(application: Application) : BaseViewModel(application) {
 
     var superHeroWorkLiveData = MutableLiveData<Result>()

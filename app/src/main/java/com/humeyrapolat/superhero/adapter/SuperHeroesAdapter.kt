@@ -14,6 +14,10 @@ import com.humeyrapolat.superhero.databinding.SuperHeroItemBinding
 import com.humeyrapolat.superhero.view.SuperHeroAppearanceFragmentDirections
 import kotlinx.android.synthetic.main.super_hero_item.view.*
 
+/**
+ * @author Humeyra Polat
+ * @sınce 26.08.2021
+ */
 class SuperHeroesAdapter(var heroList: ArrayList<Result>) :
     RecyclerView.Adapter<SuperHeroesAdapter.SuperHeroHolder>(),SuperHeroListener {
 

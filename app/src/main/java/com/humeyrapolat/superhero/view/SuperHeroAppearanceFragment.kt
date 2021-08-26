@@ -17,6 +17,10 @@ import com.humeyrapolat.superhero.viewmodel.SuperHeroAppearanceViewModel
 import kotlinx.android.synthetic.main.fragment_super_hero_appearance.*
 import kotlinx.android.synthetic.main.fragment_super_heroes.*
 
+/**
+ * @author Humeyra Polat
+ * @sınce 24.08.2021
+ */
 class SuperHeroAppearanceFragment : Fragment() {
 
     private var resultId : Long =0

@@ -9,6 +9,10 @@ import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.observers.DisposableSingleObserver
 import io.reactivex.schedulers.Schedulers
 
+/**
+ * @author Humeyra Polat
+ * @sınce 24.08.2021
+ */
 class SuperHeroesViewModel(application: Application) : BaseViewModel(application) {
 //kullanıcıyı ilgilendirmeyen kısım
 

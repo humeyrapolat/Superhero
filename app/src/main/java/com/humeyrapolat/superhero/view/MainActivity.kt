@@ -6,7 +6,10 @@ import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
 import com.humeyrapolat.superhero.R
-
+/**
+ * @author Humeyra Polat
+ * @sınce 24.08.2021
+ */
 class MainActivity : AppCompatActivity() {
     private lateinit var navController: NavController
 

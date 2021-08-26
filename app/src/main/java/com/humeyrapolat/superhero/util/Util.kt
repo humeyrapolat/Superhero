@@ -8,7 +8,10 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.humeyrapolat.superhero.R
 
-
+/**
+ * @author Humeyra Polat
+ * @sınce 24.08.2021
+ */
 fun ImageView.downloadFromUrl(url :String?, progressDrawable: CircularProgressDrawable){
 
     val options = RequestOptions()

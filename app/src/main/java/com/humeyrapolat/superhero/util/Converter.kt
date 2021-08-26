@@ -2,7 +2,10 @@ package com.humeyrapolat.superhero.util
 
 import androidx.room.TypeConverter
 
-
+/**
+ * @author Humeyra Polat
+ * @sınce 24.08.2021
+ */
 class Converters {
 
 
