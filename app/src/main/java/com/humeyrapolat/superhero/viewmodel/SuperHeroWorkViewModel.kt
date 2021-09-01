@@ -15,7 +15,4 @@ import io.reactivex.schedulers.Schedulers
  */
 class SuperHeroWorkViewModel(application: Application) : BaseViewModel(application) {
 
-    var superHeroWorkLiveData = MutableLiveData<Result>()
-
-
 }

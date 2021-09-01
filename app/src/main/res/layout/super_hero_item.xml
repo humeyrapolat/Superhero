@@ -15,11 +15,11 @@
     </data>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="190dp"
+        android:layout_width="180dp"
         android:layout_height="250dp"
         android:layout_margin="5dp"
         android:onClick="@{listener::onSuperHeroClicked}"
-        app:cardBackgroundColor="@color/white"
+        app:cardBackgroundColor="#1C2833"
         app:cardCornerRadius="10dp"
         app:cardElevation="25dp"
         android:elevation="25dp">

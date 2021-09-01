@@ -1,18 +1,22 @@
 package com.humeyrapolat.superhero.util
 
+import android.app.Activity
 import android.content.Context
+import android.view.inputmethod.InputMethodManager
 import android.widget.ImageView
 import androidx.databinding.BindingAdapter
+import androidx.fragment.app.Fragment
 import androidx.swiperefreshlayout.widget.CircularProgressDrawable
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.humeyrapolat.superhero.R
 
+
 /**
  * @author Humeyra Polat
  * @sınce 24.08.2021
  */
-fun ImageView.downloadFromUrl(url :String?, progressDrawable: CircularProgressDrawable){
+fun ImageView.downloadFromUrl(url: String?, progressDrawable: CircularProgressDrawable){
 
     val options = RequestOptions()
         .placeholder(progressDrawable)
@@ -26,7 +30,7 @@ fun ImageView.downloadFromUrl(url :String?, progressDrawable: CircularProgressDr
 
 }
 
-fun placeHolderProgressBar( context: Context): CircularProgressDrawable {
+fun placeHolderProgressBar(context: Context): CircularProgressDrawable {
     return CircularProgressDrawable(context).apply {
         strokeWidth = 8f
         centerRadius=40f
@@ -35,6 +39,8 @@ fun placeHolderProgressBar( context: Context): CircularProgressDrawable {
 }
 
 @BindingAdapter("android:downloadUrl")
-fun downloadImage(view : ImageView, url : String?){
+fun downloadImage(view: ImageView, url: String?){
     view.downloadFromUrl(url, placeHolderProgressBar(view.context))
+
 }
+
