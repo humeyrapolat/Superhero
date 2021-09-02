@@ -32,19 +32,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:hint="click here the search..."
-                    android:textColor="@color/white"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#C7C9CA"
                     android:textSize="16sp"
-                    android:textColorHint="#EAECEE"
+                    android:textColorHint="#C7C9CA"
                     android:padding="5dp"
                     android:imeOptions="actionDone"/>
-
-<!--                <ImageView-->
-<!--                    android:id="@+id/search_button"-->
-<!--                    android:layout_width="30dp"-->
-<!--                    android:layout_height="30dp"-->
-<!--                    android:layout_marginLeft="5dp"-->
-<!--                    android:src="@drawable/ic_baseline_search_24"-->
-<!--                    android:layout_gravity="center"/>-->
 
             </androidx.appcompat.widget.LinearLayoutCompat>
 

@@ -32,8 +32,6 @@ class SuperHeroesAdapter(var heroList: ArrayList<Result>) :
     RecyclerView.Adapter<SuperHeroesAdapter.SuperHeroHolder>(), SuperHeroListener, Filterable {
 
     var filteredList = ArrayList<Result>()
-    // val heroListCopy = ArrayList<Result>()
-
     class SuperHeroHolder(var view: SuperHeroItemBinding) : RecyclerView.ViewHolder(view.root) {
     }
 
