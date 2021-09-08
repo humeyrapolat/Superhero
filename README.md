@@ -1,6 +1,6 @@
 # SUPER HERO APPLICATION
 In this application you can get all super heroes information which were listed alphabetical. 
-In the first page I used recyclerview to kept all super heroes image and name. If you click one of them you can go to next 
+In the first page I used recyclerview to kept all super heroes image and name. There is a search button exist so you can write any hero's name to find quickly. Otherwise,if you click one of them you can go to next 
 page which is contains super hero's image ,name ,appearance and biography. By the way if you go to end of the page you can see 
 the button that helps to go to next page. In the next page you can see the work and powerstats same hero.
 
