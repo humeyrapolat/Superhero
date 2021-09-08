@@ -30,7 +30,7 @@
             android:layout_height="match_parent"
             android:background="@drawable/background"
             android:gravity="center"
-            android:visibility="gone"
+            android:visibility="visible"
             tools:context=".view.SuperHeroAppearanceFragment">
 
 
